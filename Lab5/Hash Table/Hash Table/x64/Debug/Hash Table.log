@@ -1,0 +1,6 @@
+﻿  Bag.cpp
+C:\Users\Cata\Desktop\Anul 1\SDA\Lab5\Bag.h(21,2): warning C4091: 'typedef ': ignored on left of 'hashT' when no variable is declared
+  ShortTest.cpp
+C:\Users\Cata\Desktop\Anul 1\SDA\Lab5\Bag.h(21,2): warning C4091: 'typedef ': ignored on left of 'hashT' when no variable is declared
+  Generating Code...
+  Hash Table.vcxproj -> C:\Users\Cata\Desktop\Anul 1\SDA\Lab5\Hash Table\x64\Debug\Hash Table.exe

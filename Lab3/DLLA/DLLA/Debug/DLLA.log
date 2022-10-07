@@ -1,0 +1,8 @@
+﻿  ExtendedTest.cpp
+C:\Users\Cata\Desktop\Anul 1\SDA\Lab3\ExtendedTest.cpp(264,20): warning C4101: 'ex': unreferenced local variable
+  IteratedList.cpp
+  ListIterator.cpp
+  ShortTest.cpp
+  Generating Code...
+C:\Users\Cata\Desktop\Anul 1\SDA\Lab3\IteratedList.cpp(24): warning C4715: 'IteratedList::alloc': not all control paths return a value
+  DLLA.vcxproj -> C:\Users\Cata\Desktop\Anul 1\SDA\Lab3\DLLA\Debug\DLLA.exe

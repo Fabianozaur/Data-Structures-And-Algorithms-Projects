@@ -1,0 +1,51 @@
+Set::Set() {
+	//TODO - Implementation
+	length=10;
+	max = 5;
+	arr = new bool[length];
+	for (int i = 0; i <= length; i++)
+		arr[i] = false;
+	cont = 0;
+
+
+}
+
+
+bool Set::add(TElem elem) {
+	//TODO - Implementation
+	int newLength,oldMax;
+	if (elem > 0)
+	{
+		if (elem > max)
+			oldMax = max;
+			max = elem;
+	}
+	else
+	{
+		if (abs(elem) > max)
+			oldMax = max;
+			max = abs(elem);
+	}
+	if (max > length / 2)
+	{
+		bool* newArr = new bool[max*2];
+		for (int i = 0; i <= length; i++)
+			newArr[i+max-oldMax] = arr[i];
+		delete arr;
+		arr = newArr;
+		newLength = max*2;
+		for (int i = length + max-oldMax+1; i <= newLength; i++)
+			arr[i] = false;
+		for (int i = 0; i < max - oldMax; i++)
+			arr[i] = false;
+		length = newLength;
+	}
+	if (arr[elem+max] == false)
+	{
+		arr[elem+max] = true;
+		cont++;
+		return true;
+	}
+	return false;
+
+}
